@@ -1,19 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-
-</head>
-<body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
     <div class="container-fluid py-1 bg-primary text-center text-white">
-        <h1 class="display-5 fw-bold">Weather Dashboard</h1>
-        
+      <h1 class="display-5 fw-bold">Weather Dashboard</h1>
+    </div>
+    <div class="row">
+      <div class="col-sm-2">
+        <div class="input-group mb-3 mt-3">
+          <h4>Search for a city</h4>
+
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Recipient's username"
+            aria-label="Recipient's username"
+            aria-describedby="button-addon2"
+          /><br />
+          <button
+            class="btn btn-outline-secondary w-100"
+            type="button"
+            id="button-addon2"
+          >
+            Search
+          </button>
+          <br />
+          <hr />
+          <button
+            class="btn btn-secondary w-100 mt-3"
+            type="button"
+            id="button-addon2"
+          >
+            Austin
+          </button>
+          <button
+            class="btn btn-secondary w-100 mt-3"
+            type="button"
+            id="button-addon2"
+          >
+            Chicago
+          </button>
+          <button
+            class="btn btn-secondary w-100 mt-3"
+            type="button"
+            id="button-addon2"
+          >
+            New York
+          </button>
+          <button
+            class="btn btn-secondary w-100 mt-3"
+            type="button"
+            id="button-addon2"
+          >
+            Orlando
+          </button>
+        </div>
       </div>
+
+
+      <div class="col-sm-10">
+        <div class="container-fluid py-5">
+          <h4 id="city-name" class="fw-bold">Atlanta</h4>
+          <p class="col-md-8">Temp</p>
+          <p class="col-md-8">Wind</p>
+          <p class="col-md-8">Humidity</p>
+          <p class="col-md-8">UV Index</p>
+          <h5>5-Day Forecast</h5>
+
+          <div class="row">
+            <div class="col-sm-2">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">00/00/000</h5>
+                  <p class="card-text">Place holder text for Temp Wind and Humidity</p>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-2">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">00/00/000</h5>
+                  <p class="card-text">Place holder text for Temp Wind and Humidity</p>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">00/00/000</h5>
+                    <p class="card-text">Place holder text for Temp Wind and Humidity</p>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-2">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">00/00/000</h5>
+                    <p class="card-text">Place holder text for Temp Wind and Humidity</p>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-2">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">00/00/000</h5>
+                    <p class="card-text">Place holder text for Temp Wind and Humidity</p>
+                    
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
